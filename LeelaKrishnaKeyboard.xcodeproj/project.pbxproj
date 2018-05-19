@@ -12,20 +12,72 @@
 		5A4FAE3A2096F2270052E81A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4FAE382096F2270052E81A /* Main.storyboard */; };
 		5A4FAE3C2096F22B0052E81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4FAE3B2096F22B0052E81A /* Assets.xcassets */; };
 		5A4FAE3F2096F22B0052E81A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A4FAE3D2096F22B0052E81A /* LaunchScreen.storyboard */; };
+		5A4FAE4A2096F2AA0052E81A /* Themes+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE492096F2AA0052E81A /* Themes+Colors.swift */; };
+		5A4FAE4C2096F3B10052E81A /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE4B2096F3B10052E81A /* KeyboardButton.swift */; };
+		5A4FAE542096F5460052E81A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE532096F5460052E81A /* KeyboardViewController.swift */; };
+		5A4FAE582096F5460052E81A /* BondKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5A4FAE512096F5460052E81A /* BondKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A4FAE5D2096F6E00052E81A /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE4B2096F3B10052E81A /* KeyboardButton.swift */; };
+		5A4FAE5E2096F6E40052E81A /* Themes+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE492096F2AA0052E81A /* Themes+Colors.swift */; };
+		5A4FAE602096F7340052E81A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE5F2096F7340052E81A /* Extensions.swift */; };
+		5A4FAE612096F73A0052E81A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE5F2096F7340052E81A /* Extensions.swift */; };
+		5A4FAE622096FBCD0052E81A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4FAE3B2096F22B0052E81A /* Assets.xcassets */; };
+		5A4FAE65209700C00052E81A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE64209700C00052E81A /* MainVC.swift */; };
+		5A4FAE67209700DD0052E81A /* ProcessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE66209700DD0052E81A /* ProcessVC.swift */; };
+		5A4FAE69209700EC0052E81A /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4FAE68209700EC0052E81A /* ResultVC.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5A4FAE562096F5460052E81A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A4FAE292096F2270052E81A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4FAE502096F5460052E81A;
+			remoteInfo = BondKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A4FAE5C2096F5460052E81A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A4FAE582096F5460052E81A /* BondKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		5A4FAE312096F2270052E81A /* SecNinjazKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecNinjazKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4FAE312096F2270052E81A /* LeelaKrishnaKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeelaKrishnaKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4FAE342096F2270052E81A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A4FAE362096F2270052E81A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A4FAE392096F2270052E81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A4FAE3B2096F22B0052E81A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A4FAE3E2096F22B0052E81A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A4FAE402096F22B0052E81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4FAE492096F2AA0052E81A /* Themes+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Themes+Colors.swift"; sourceTree = "<group>"; };
+		5A4FAE4B2096F3B10052E81A /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
+		5A4FAE512096F5460052E81A /* BondKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BondKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4FAE532096F5460052E81A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		5A4FAE552096F5460052E81A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4FAE5F2096F7340052E81A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5A4FAE64209700C00052E81A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		5A4FAE66209700DD0052E81A /* ProcessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessVC.swift; sourceTree = "<group>"; };
+		5A4FAE68209700EC0052E81A /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5A4FAE2E2096F2270052E81A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A4FAE4E2096F5460052E81A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				5A4FAE332096F2270052E81A /* SecNinjazKeyboard */,
+				5A4FAE482096F2610052E81A /* Data&Utilities */,
+				5A4FAE472096F2580052E81A /* View */,
+				5A4FAE462096F24A0052E81A /* Model */,
+				5A4FAE522096F5460052E81A /* BondKeyboard */,
 				5A4FAE322096F2270052E81A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,7 +102,8 @@
 		5A4FAE322096F2270052E81A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A4FAE312096F2270052E81A /* SecNinjazKeyboard.app */,
+				5A4FAE312096F2270052E81A /* LeelaKrishnaKeyboard.app */,
+				5A4FAE512096F5460052E81A /* BondKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,25 +121,88 @@
 			path = SecNinjazKeyboard;
 			sourceTree = "<group>";
 		};
+		5A4FAE462096F24A0052E81A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A4FAE472096F2580052E81A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A4FAE4B2096F3B10052E81A /* KeyboardButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A4FAE482096F2610052E81A /* Data&Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5A4FAE5F2096F7340052E81A /* Extensions.swift */,
+				5A4FAE492096F2AA0052E81A /* Themes+Colors.swift */,
+			);
+			path = "Data&Utilities";
+			sourceTree = "<group>";
+		};
+		5A4FAE522096F5460052E81A /* BondKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5A4FAE63209700A80052E81A /* Controller */,
+				5A4FAE532096F5460052E81A /* KeyboardViewController.swift */,
+				5A4FAE552096F5460052E81A /* Info.plist */,
+			);
+			path = BondKeyboard;
+			sourceTree = "<group>";
+		};
+		5A4FAE63209700A80052E81A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5A4FAE64209700C00052E81A /* MainVC.swift */,
+				5A4FAE66209700DD0052E81A /* ProcessVC.swift */,
+				5A4FAE68209700EC0052E81A /* ResultVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A4FAE302096F2270052E81A /* SecNinjazKeyboard */ = {
+		5A4FAE302096F2270052E81A /* LeelaKrishnaKeyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A4FAE432096F22B0052E81A /* Build configuration list for PBXNativeTarget "SecNinjazKeyboard" */;
+			buildConfigurationList = 5A4FAE432096F22B0052E81A /* Build configuration list for PBXNativeTarget "LeelaKrishnaKeyboard" */;
 			buildPhases = (
 				5A4FAE2D2096F2270052E81A /* Sources */,
 				5A4FAE2E2096F2270052E81A /* Frameworks */,
 				5A4FAE2F2096F2270052E81A /* Resources */,
+				5A4FAE5C2096F5460052E81A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A4FAE572096F5460052E81A /* PBXTargetDependency */,
+			);
+			name = LeelaKrishnaKeyboard;
+			productName = SecNinjazKeyboard;
+			productReference = 5A4FAE312096F2270052E81A /* LeelaKrishnaKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A4FAE502096F5460052E81A /* BondKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A4FAE592096F5460052E81A /* Build configuration list for PBXNativeTarget "BondKeyboard" */;
+			buildPhases = (
+				5A4FAE4D2096F5460052E81A /* Sources */,
+				5A4FAE4E2096F5460052E81A /* Frameworks */,
+				5A4FAE4F2096F5460052E81A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SecNinjazKeyboard;
-			productName = SecNinjazKeyboard;
-			productReference = 5A4FAE312096F2270052E81A /* SecNinjazKeyboard.app */;
-			productType = "com.apple.product-type.application";
+			name = BondKeyboard;
+			productName = BondKeyboard;
+			productReference = 5A4FAE512096F5460052E81A /* BondKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,9 +217,12 @@
 					5A4FAE302096F2270052E81A = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					5A4FAE502096F5460052E81A = {
+						CreatedOnToolsVersion = 9.3;
+					};
 				};
 			};
-			buildConfigurationList = 5A4FAE2C2096F2270052E81A /* Build configuration list for PBXProject "SecNinjazKeyboard" */;
+			buildConfigurationList = 5A4FAE2C2096F2270052E81A /* Build configuration list for PBXProject "LeelaKrishnaKeyboard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +235,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A4FAE302096F2270052E81A /* SecNinjazKeyboard */,
+				5A4FAE302096F2270052E81A /* LeelaKrishnaKeyboard */,
+				5A4FAE502096F5460052E81A /* BondKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +252,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A4FAE4F2096F5460052E81A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4FAE622096FBCD0052E81A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,12 +267,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A4FAE602096F7340052E81A /* Extensions.swift in Sources */,
+				5A4FAE4C2096F3B10052E81A /* KeyboardButton.swift in Sources */,
+				5A4FAE4A2096F2AA0052E81A /* Themes+Colors.swift in Sources */,
 				5A4FAE372096F2270052E81A /* ViewController.swift in Sources */,
 				5A4FAE352096F2270052E81A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5A4FAE4D2096F5460052E81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4FAE67209700DD0052E81A /* ProcessVC.swift in Sources */,
+				5A4FAE5E2096F6E40052E81A /* Themes+Colors.swift in Sources */,
+				5A4FAE65209700C00052E81A /* MainVC.swift in Sources */,
+				5A4FAE5D2096F6E00052E81A /* KeyboardButton.swift in Sources */,
+				5A4FAE69209700EC0052E81A /* ResultVC.swift in Sources */,
+				5A4FAE542096F5460052E81A /* KeyboardViewController.swift in Sources */,
+				5A4FAE612096F73A0052E81A /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A4FAE572096F5460052E81A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A4FAE502096F5460052E81A /* BondKeyboard */;
+			targetProxy = 5A4FAE562096F5460052E81A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5A4FAE382096F2270052E81A /* Main.storyboard */ = {
@@ -279,9 +436,10 @@
 		5A4FAE442096F22B0052E81A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5LC376D52F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SecNinjazKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +455,10 @@
 		5A4FAE452096F22B0052E81A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5LC376D52F;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SecNinjazKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,10 +471,48 @@
 			};
 			name = Release;
 		};
+		5A4FAE5A2096F5460052E81A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LC376D52F;
+				INFOPLIST_FILE = BondKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ssss.SecNinjazKeyboard.BondKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A4FAE5B2096F5460052E81A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5LC376D52F;
+				INFOPLIST_FILE = BondKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ssss.SecNinjazKeyboard.BondKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A4FAE2C2096F2270052E81A /* Build configuration list for PBXProject "SecNinjazKeyboard" */ = {
+		5A4FAE2C2096F2270052E81A /* Build configuration list for PBXProject "LeelaKrishnaKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A4FAE412096F22B0052E81A /* Debug */,
@@ -324,11 +521,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A4FAE432096F22B0052E81A /* Build configuration list for PBXNativeTarget "SecNinjazKeyboard" */ = {
+		5A4FAE432096F22B0052E81A /* Build configuration list for PBXNativeTarget "LeelaKrishnaKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A4FAE442096F22B0052E81A /* Debug */,
 				5A4FAE452096F22B0052E81A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A4FAE592096F5460052E81A /* Build configuration list for PBXNativeTarget "BondKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A4FAE5A2096F5460052E81A /* Debug */,
+				5A4FAE5B2096F5460052E81A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
